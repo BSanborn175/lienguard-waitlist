@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>You're In! — LienGuard Pro Founders</title>
+    <link rel="icon" type="image/png" href="assets/logo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <style>
+        *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+        body {
+            font-family: 'Inter', -apple-system, sans-serif;
+            background: #020617;
+            color: #e2e8f0;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 24px;
+        }
+        .card {
+            max-width: 560px;
+            text-align: center;
+            background: linear-gradient(135deg, rgba(15,23,42,0.95), rgba(8,18,34,0.95));
+            border: 1px solid rgba(79,70,229,0.25);
+            border-radius: 24px;
+            padding: 60px 40px;
+        }
+        .check {
+            width: 80px;
+            height: 80px;
+            background: rgba(34,197,94,0.15);
+            border: 3px solid #22c55e;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 28px;
+            font-size: 2.5rem;
+        }
+        h1 {
+            font-size: 2rem;
+            font-weight: 800;
+            color: #f8fafc;
+            margin-bottom: 12px;
+        }
+        .gradient-text {
+            background: linear-gradient(135deg, #818cf8, #38bdf8);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        p {
+            font-size: 1.05rem;
+            color: #94a3b8;
+            line-height: 1.7;
+            margin-bottom: 16px;
+        }
+        .what-next {
+            text-align: left;
+            background: rgba(255,255,255,0.03);
+            border: 1px solid rgba(255,255,255,0.06);
+            border-radius: 12px;
+            padding: 24px;
+            margin: 28px 0;
+        }
+        .what-next h3 {
+            font-size: 1rem;
+            font-weight: 700;
+            color: #f8fafc;
+            margin-bottom: 12px;
+        }
+        .what-next li {
+            color: #94a3b8;
+            font-size: 0.95rem;
+            margin-bottom: 8px;
+            line-height: 1.5;
+            list-style: none;
+            padding-left: 24px;
+            position: relative;
+        }
+        .what-next li::before {
+            content: "→";
+            position: absolute;
+            left: 0;
+            color: #818cf8;
+            font-weight: 700;
+        }
+        .home-link {
+            display: inline-block;
+            margin-top: 8px;
+            color: #818cf8;
+            font-weight: 600;
+            font-size: 0.95rem;
+            text-decoration: none;
+            transition: color 0.2s;
+        }
+        .home-link:hover { color: #a5b4fc; }
+        @media (max-width: 640px) {
+            .card { padding: 40px 24px; }
+            h1 { font-size: 1.6rem; }
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <div class="check">✓</div>
+        <h1>You're a <span class="gradient-text">Founder</span>.</h1>
+        <p>Your spot is locked in. When LienGuard Pro launches, you'll get first access at the lowest price we'll ever offer.</p>
+        <div class="what-next">
+            <h3>What happens next?</h3>
+            <ul>
+                <li>You'll receive a confirmation email from Stripe</li>
+                <li>We'll email you the moment LienGuard Pro is ready</li>
+                <li>You'll choose your plan (Pro or Investor) at Founders pricing</li>
+                <li>Your rate is locked for life — no surprises, no increases</li>
+            </ul>
+        </div>
+        <p style="font-size: 0.9rem; color: #64748b;">Questions? Reply to your confirmation email — we read every one.</p>
+        <a href="https://www.lienguardpro.com" class="home-link">← Visit LienGuard Pro</a>
+    </div>
+</body>
+</html>
